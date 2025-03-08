@@ -24,11 +24,7 @@ This project evaluates different data structures to optimize insert and remove o
 ## Project Structure
 
 ```
-DSA-Benchmark/
-├── .gitignore
-├── README.md
-├── LICENSE
-├── PerformanceQueueSolution.sln
+
 └── src/
     ├── Program.cs
     ├── DataStructures/
@@ -39,23 +35,13 @@ DSA-Benchmark/
         └── CollidingKey.cs               // Custom key type to simulate hash collisions
 ```
 
-## Setup & Execution
+## Execution
 
-1. **Clone Repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/DSA-Benchmark.git
-   cd DSA-Benchmark
-   ```
-
-2. **Open the Project:**
-    - Use JetBrains Rider or Visual Studio to open the solution.
-
-3. **Build the Solution:**
+**Build the Solution:**
     - Compile the solution (`PerformanceQueueSolution.sln`).
     - If errors occur, verify file and namespace configurations.
 
-4. **Run the Benchmark:**
+**Run the Benchmark:**
     - When executed, the console will prompt for the number of operations (e.g., 10K).
     - Results will be displayed step by step.
 

@@ -1,0 +1,31 @@
+# Build output directories
+bin/
+obj/
+
+# JetBrains Rider / IntelliJ IDEA
+.idea/
+.idea/*
+.idea/**
+
+*.sln.iml
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Package manager files (NuGet / npm)
+*.nupkg
+packages/
+node_modules/
+
+# Environment variables (optional, if you use API keys, secrets, etc.)
+.env
+
+# Temporary and log files
+*.tmp
+*.log
+*.cache
+
+# macOS system files
+.DS_Store
